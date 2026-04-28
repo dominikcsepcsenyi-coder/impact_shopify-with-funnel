@@ -8,6 +8,22 @@
  * ------------------------------------------------------------
  */
 {
-  "sections": {},
-  "order": []
+  "sections": {
+    "main": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "main"
+  ]
 }
