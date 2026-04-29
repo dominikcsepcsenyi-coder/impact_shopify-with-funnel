@@ -122,10 +122,126 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "images_with_text_scrolling_jAzAhd": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_ABmbC3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/7ec8f130-eed2-4e8b-8970-17448183234d.webp",
+            "icon": "none",
+            "icon_width": 52,
+            "title": "\"Az első héten már éreztem a különbséget\"",
+            "content": "<p>Évek óta dolgozom képernyő előtt és délutánra mindig teljesen lemerültem. Kipróbáltam a FocusLens-t, és kb. 3-4 nap után vettem észre, hogy nem fáj a fejem munka után. Most már minden reggel automatikusan felveszem. — B. Kata</p>"
+          }
+        },
+        "item_WQixAe": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/x41y45x41y45x41y-clean.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "\"Végre tudok rendesen aludni\"",
+            "content": "<p>Szkeptikus voltam, de a vörös lencse tényleg működik. Lefekvés előtt egy órával felveszem, és sokkal gyorsabban alszom el. A reggeli ébredés is más — nem kell 2 kávé hogy emberi legyek. — K. Péter</p>"
+          }
+        },
+        "item_tNxwLP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/db9b269a-2f6a-4d79-9f8b-21b6ca0cf169.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "\"Nem hittem volna, hogy egy szemüveg ennyit számít\"",
+            "content": "<p>Otthonról dolgozom, napi 10+ órát töltök monitor előtt. A fejfájás nálam már alapállapot volt. Egy hét FocusLens után rájöttem, hogy két napja nem fájt a fejem. Apró dolog, de hatalmas különbség. — V. Bea</p>"
+          }
+        },
+        "item_Xnwy3M": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/bc08d1cf-a49f-4c21-ab4e-0fba9664f545.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "\"Az egész család használja már\"",
+            "content": "<p>Először csak magamnak rendeltem, aztán a párom is elkérte. Most mindketten felváltva vesszük fel este a vöröset. Az alvásunk minősége tényleg javult — reggel nem kell azonnal a telefonért nyúlni, csak lassan ébredünk. — F. Nóra</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_ABmbC3",
+        "item_WQixAe",
+        "item_tNxwLP",
+        "item_Xnwy3M"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "custom_liquid_zYLdFX": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .nv-sci {\n    background: #0d0d0d;\n    padding: 80px 40px;\n    color: #fff;\n  }\n  .nv-sci * { box-sizing: border-box; margin: 0; padding: 0; }\n\n  .nv-sci__inner {\n    max-width: 1200px;\n    margin: 0 auto;\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 80px;\n    align-items: center;\n  }\n\n  /* CHART */\n  .nv-chart__label {\n    font-family: 'Courier New', monospace;\n    font-size: 11px;\n    letter-spacing: 0.18em;\n    color: #666;\n    text-transform: uppercase;\n    margin-bottom: 24px;\n    line-height: 1.7;\n  }\n  .nv-chart__label em { color: #c8a96e; font-style: normal; }\n\n  .nv-chart__svg-wrap {\n    position: relative;\n    width: 100%;\n    height: 280px;\n  }\n  .nv-chart__svg-wrap svg {\n    width: 100%;\n    height: 100%;\n  }\n\n  .nv-chart__xaxis {\n    display: flex;\n    justify-content: space-between;\n    margin-top: 8px;\n  }\n  .nv-chart__xaxis span {\n    font-family: 'Courier New', monospace;\n    font-size: 11px;\n    color: #888;\n  }\n  .nv-chart__note {\n    margin-top: 12px;\n    font-family: 'Courier New', monospace;\n    font-size: 10px;\n    color: #555;\n    font-style: italic;\n    line-height: 1.6;\n  }\n\n  /* TEXT */\n  .nv-sci__text {\n    border-left: 1px solid #222;\n    padding-left: 48px;\n  }\n  .nv-sci__wave {\n    display: flex;\n    gap: 4px;\n    margin-bottom: 28px;\n  }\n  .nv-sci__wave span {\n    display: block;\n    width: 22px;\n    height: 2px;\n    background: #c8a96e;\n    border-radius: 2px;\n    opacity: 0.5;\n    animation: nvwave 1.6s ease-in-out infinite;\n  }\n  .nv-sci__wave span:nth-child(2) { animation-delay:.2s }\n  .nv-sci__wave span:nth-child(3) { animation-delay:.4s }\n  .nv-sci__wave span:nth-child(4) { animation-delay:.6s }\n  .nv-sci__wave span:nth-child(5) { animation-delay:.8s }\n  @keyframes nvwave {\n    0%,100% { transform:scaleY(1); opacity:.4 }\n    50% { transform:scaleY(3); opacity:1 }\n  }\n\n  .nv-sci__eyebrow {\n    font-family: 'Courier New', monospace;\n    font-size: 11px;\n    letter-spacing: 0.25em;\n    color: #888;\n    text-transform: uppercase;\n    margin-bottom: 18px;\n  }\n  .nv-sci__heading {\n    font-size: 28px;\n    font-weight: 300;\n    line-height: 1.35;\n    color: #ffffff;\n    margin-bottom: 28px;\n  }\n  .nv-sci__body {\n    font-size: 16px;\n    line-height: 1.85;\n    color: #aaa;\n  }\n  .nv-sci__body p + p { margin-top: 16px; }\n  .nv-sci__body strong { color: #ffffff; font-weight: 400; }\n\n  /* Chart animation */\n  .nv-fill { opacity:0; animation: nvFade 1.2s ease forwards .3s; }\n  .nv-line { stroke-dasharray:900; stroke-dashoffset:900; animation: nvDraw 2s ease forwards .5s; }\n  @keyframes nvFade { to { opacity:1 } }\n  @keyframes nvDraw { to { stroke-dashoffset:0 } }\n\n  @media (max-width: 768px) {\n    .nv-sci { padding: 56px 20px; }\n    .nv-sci__inner { grid-template-columns:1fr; gap:48px; }\n    .nv-sci__text { border-left:none; border-top:1px solid #222; padding-left:0; padding-top:40px; }\n  }\n</style>\n\n<section class=\"nv-sci\">\n  <div class=\"nv-sci__inner\">\n\n    <!-- CHART -->\n    <div>\n      <div class=\"nv-chart__label\">\n        Noctis WellnesLens™ —<br>\n        <em>Kékfény blokkolás 400–520nm</em>\n      </div>\n\n      <div class=\"nv-chart__svg-wrap\">\n        <svg viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\">\n          <defs>\n            <!-- Full visible spectrum colours -->\n            <linearGradient id=\"nv-spec\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n              <stop offset=\"0%\"   stop-color=\"#6633ff\" stop-opacity=\"1\"/>\n              <stop offset=\"12%\"  stop-color=\"#3399ff\" stop-opacity=\"1\"/>\n              <stop offset=\"28%\"  stop-color=\"#00ffaa\" stop-opacity=\"1\"/>\n              <stop offset=\"45%\"  stop-color=\"#aaff00\" stop-opacity=\"1\"/>\n              <stop offset=\"62%\"  stop-color=\"#ffdd00\" stop-opacity=\"1\"/>\n              <stop offset=\"78%\"  stop-color=\"#ff6600\" stop-opacity=\"1\"/>\n              <stop offset=\"100%\" stop-color=\"#cc1100\" stop-opacity=\"1\"/>\n            </linearGradient>\n\n            <!-- Red tint overlay for blocked zone -->\n            <linearGradient id=\"nv-redtint\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n              <stop offset=\"0%\"   stop-color=\"#cc0000\" stop-opacity=\"0.22\"/>\n              <stop offset=\"100%\" stop-color=\"#cc0000\" stop-opacity=\"0.05\"/>\n            </linearGradient>\n\n            <!-- Desaturate/dim blocked zone with dark overlay -->\n            <linearGradient id=\"nv-dim\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n              <stop offset=\"0%\"   stop-color=\"#0d0d0d\" stop-opacity=\"0.72\"/>\n              <stop offset=\"100%\" stop-color=\"#0d0d0d\" stop-opacity=\"0.38\"/>\n            </linearGradient>\n\n            <filter id=\"nv-glow\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">\n              <feGaussianBlur stdDeviation=\"2.5\" result=\"b\"/>\n              <feMerge><feMergeNode in=\"b\"/><feMergeNode in=\"SourceGraphic\"/></feMerge>\n            </filter>\n          </defs>\n\n          <!-- Grid -->\n          <line x1=\"0\" y1=\"65\"  x2=\"420\" y2=\"65\"  stroke=\"#1e1e1e\" stroke-width=\"1\"/>\n          <line x1=\"0\" y1=\"130\" x2=\"420\" y2=\"130\" stroke=\"#1e1e1e\" stroke-width=\"1\"/>\n          <line x1=\"0\" y1=\"195\" x2=\"420\" y2=\"195\" stroke=\"#1e1e1e\" stroke-width=\"1\"/>\n          <line x1=\"0\" y1=\"260\" x2=\"420\" y2=\"260\" stroke=\"#1e1e1e\" stroke-width=\"1\"/>\n\n          <!-- SPECTRUM FILL — full colour, visible everywhere -->\n          <path class=\"nv-fill\"\n            d=\"M0,260 L0,235 C14,228 26,210 46,178 C68,142 78,92 100,52 C114,24 126,10 140,14 C156,19 168,62 184,98 C200,132 212,155 234,170 C258,185 280,188 304,184 C326,180 348,174 374,177 C394,179 408,182 420,184 L420,260 Z\"\n            fill=\"url(#nv-spec)\"\n            opacity=\"0.75\"\n          />\n\n          <!-- DIM overlay on blocked zone (left 38%) — makes it look \"filtered\" not invisible -->\n          <rect class=\"nv-fill\" x=\"0\" y=\"0\" width=\"160\" height=\"260\" fill=\"url(#nv-dim)\"/>\n\n          <!-- RED TINT on blocked zone — shows what's being blocked -->\n          <rect class=\"nv-fill\" x=\"0\" y=\"0\" width=\"160\" height=\"260\" fill=\"url(#nv-redtint)\"/>\n\n          <!-- Curve line — bright, visible -->\n          <path class=\"nv-line\"\n            d=\"M0,235 C14,228 26,210 46,178 C68,142 78,92 100,52 C114,24 126,10 140,14 C156,19 168,62 184,98 C200,132 212,155 234,170 C258,185 280,188 304,184 C326,180 348,174 374,177 C394,179 408,182 420,184\"\n            fill=\"none\"\n            stroke=\"rgba(255,255,255,0.55)\"\n            stroke-width=\"2.5\"\n          />\n\n          <!-- Divider at 520nm -->\n          <line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"260\"\n            stroke=\"#ff4444\"\n            stroke-width=\"2\"\n            stroke-dasharray=\"5,4\"\n            filter=\"url(#nv-glow)\"\n            opacity=\"0.9\"\n          />\n\n          <!-- Labels inside chart -->\n          <!-- Blocked label -->\n          <rect x=\"8\" y=\"10\" width=\"118\" height=\"22\" rx=\"3\" fill=\"rgba(180,30,30,0.18)\" stroke=\"rgba(200,50,50,0.4)\" stroke-width=\"1\"/>\n          <text x=\"16\" y=\"25\" font-family=\"'Courier New',monospace\" font-size=\"9.5\" fill=\"#ff6666\" letter-spacing=\"1\">⬛ BLOKOLT</text>\n\n          <!-- 520nm label -->\n          <text x=\"165\" y=\"22\" font-family=\"'Courier New',monospace\" font-size=\"10\" fill=\"#ff5555\" opacity=\"0.9\">520nm</text>\n\n          <!-- Passed label -->\n          <rect x=\"170\" y=\"10\" width=\"100\" height=\"22\" rx=\"3\" fill=\"rgba(200,169,110,0.1)\" stroke=\"rgba(200,169,110,0.25)\" stroke-width=\"1\"/>\n          <text x=\"178\" y=\"25\" font-family=\"'Courier New',monospace\" font-size=\"9.5\" fill=\"#c8a96e\" letter-spacing=\"1\">ÁTENGEDETT</text>\n        </svg>\n      </div>\n\n      <div class=\"nv-chart__xaxis\">\n        <span>400nm</span>\n        <span>455nm</span>\n        <span>500nm</span>\n        <span>600nm</span>\n        <span>700nm</span>\n      </div>\n      <div class=\"nv-chart__note\">\n        Látható fény hullámhossza (nm)<br>\n        *Példa értékek — relatív fényenergia, környezettől függően változhat\n      </div>\n    </div>\n\n    <!-- TEXT -->\n    <div class=\"nv-sci__text\">\n      <div class=\"nv-sci__wave\">\n        <span></span><span></span><span></span><span></span><span></span>\n      </div>\n      <div class=\"nv-sci__eyebrow\">A tudomány</div>\n      <h2 class=\"nv-sci__heading\">A kékfény megzavarja a tested természetes ritmusát.</h2>\n      <div class=\"nv-sci__body\">\n        <p>A szemed retinájában speciális sejtek figyelik a fényt — ezek mondják meg az agyadnak, hogy nappal van-e vagy éjszaka. <strong>Ezek a sejtek pontosan a kékfényre érzékenyek</strong> — arra, amit a telefonod, laptopod és a LED izzók folyamatosan kibocsátanak.</p>\n        <p>Este, amikor képernyőt nézel, az agyad azt hiszi, még nappal van. <strong>Nem termel melatonint. Nem tudsz elaludni.</strong> Ha el is alszol, nem mély az alvásod — reggel fáradtabban kelsz, mint ahogy lefeküdtél.</p>\n        <p>A Noctis WellnesLens™ a 400–520nm tartományban szűri ki ezt a fényt. Az agyad megkapja a jelet: vége a napnak. <strong>A melatonin termelés elindul. Az alvás helyreáll.</strong></p>\n      </div>\n    </div>\n\n  </div>\n</section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_PmnWb9": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_Peb7Da": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Kepernyofoto_2026-04-26_-_22.09.01.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Tudományos háttér",
+            "content": "<p>Dr. Andrew Huberman a Stanford University School of Medicine neurobiológia és szemészeti professzora. Kutatásai elsősorban az agy fejlődésére, a látórendszer funkcióira és a cirkadián ritmus szabályozására összpontosítanak.</p><p></p><p>A vörös lencsés szemüveg viselése este nem csupán egy biohacking trükk; ez egy módja annak, hogy elkerüljük a cirkadián fáziseltolódást. Ha éjszaka kék fény éri a szemet, az agy azt hiszi, délután van, de a vörös lencse 'neurobiológiai védőpajzsként' funkcionál, amely lehetővé teszi a melatonin emelkedését a mesterséges megvilágítás ellenére is.\"<br/>— <strong>Dr. Andrew Huberman</strong></p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#455b6e",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Peb7Da"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
     }
   },
   "order": [
     "main",
-    "17510116181812636e"
+    "17510116181812636e",
+    "images_with_text_scrolling_jAzAhd",
+    "custom_liquid_zYLdFX",
+    "media_with_text_PmnWb9"
   ]
 }
