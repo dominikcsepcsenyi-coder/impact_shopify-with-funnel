@@ -235,6 +235,79 @@
         "alternate_media_position": false,
         "spacing": "small"
       }
+    },
+    "testimonials_yjGr4a": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_xzhLyB": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "K. Márton",
+            "title": "Az első héten már éreztem a különbséget",
+            "content": "<p>Évek óta küzdöttem a délutáni kimerüléssel és a rossz alvással. A Noctis Vision az első hét után már érezhető változást hozott. Gyorsabban alszom el, reggel nem kell azonnal a kávéért nyúlnom.</p>"
+          }
+        },
+        "testimonial_tVtFbn": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "N Eszter",
+            "title": "Végre tudok rendesen aludni",
+            "content": "<p>Szkeptikus voltam, de a vörös lencse tényleg működik. Lefekvés előtt egy órával felveszem, és sokkal gyorsabban alszom el. A reggeli ébredés is más — nem kell 2 kávé hogy emberi legyek.</p>"
+          }
+        },
+        "testimonial_NcCVcR": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Nem hittem volna, hogy egy szemüveg ennyit számít",
+            "content": "<p>Programozóként napi 10+ órát töltök monitor előtt. A fejfájás nálam már alapállapot volt. Egy hét FocusLens után rájöttem, hogy két napja nem fájt a fejem. Apró dolog, de hatalmas különbség.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_xzhLyB",
+        "testimonial_tVtFbn",
+        "testimonial_NcCVcR"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": true,
+        "subheading": "",
+        "title": "Testimonials",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    },
+    "custom_liquid_YYwGrQ": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .nv-sys {\n    background: #0d0d0d;\n    padding: 80px 40px;\n    color: #fff;\n    overflow: hidden;\n  }\n  .nv-sys * { box-sizing: border-box; margin: 0; padding: 0; }\n\n  .nv-sys__header {\n    max-width: 1200px;\n    margin: 0 auto 64px;\n    text-align: center;\n  }\n  .nv-sys__eyebrow {\n    font-family: 'Courier New', monospace;\n    font-size: 11px;\n    letter-spacing: 0.25em;\n    color: #555;\n    text-transform: uppercase;\n    margin-bottom: 18px;\n  }\n  .nv-sys__heading {\n    font-size: 32px;\n    font-weight: 300;\n    color: #f0f0f0;\n    line-height: 1.3;\n  }\n  .nv-sys__heading em {\n    font-style: normal;\n    color: #c8a96e;\n  }\n\n  /* SPLIT */\n  .nv-sys__split {\n    max-width: 1200px;\n    margin: 0 auto;\n    display: grid;\n    grid-template-columns: 1fr 1px 1fr;\n    gap: 0;\n    align-items: stretch;\n  }\n\n  .nv-sys__divider {\n    background: linear-gradient(to bottom, transparent, #333 20%, #333 80%, transparent);\n    width: 1px;\n  }\n\n  /* CARD */\n  .nv-sys__card {\n    padding: 48px 56px;\n    position: relative;\n  }\n\n  .nv-sys__card--day {\n    border-top: 1px solid #1e1e1e;\n    border-bottom: 1px solid #1e1e1e;\n  }\n  .nv-sys__card--night {\n    border-top: 1px solid #1e1e1e;\n    border-bottom: 1px solid #1e1e1e;\n  }\n\n  /* Icon */\n  .nv-sys__icon {\n    width: 56px;\n    height: 56px;\n    border-radius: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin-bottom: 28px;\n    font-size: 24px;\n  }\n  .nv-sys__icon--day {\n    background: rgba(200, 169, 110, 0.1);\n    border: 1px solid rgba(200, 169, 110, 0.25);\n  }\n  .nv-sys__icon--night {\n    background: rgba(160, 60, 60, 0.12);\n    border: 1px solid rgba(180, 60, 60, 0.25);\n  }\n\n  /* Tag */\n  .nv-sys__tag {\n    font-family: 'Courier New', monospace;\n    font-size: 9px;\n    letter-spacing: 0.22em;\n    text-transform: uppercase;\n    padding: 4px 12px;\n    border-radius: 2px;\n    display: inline-block;\n    margin-bottom: 20px;\n  }\n  .nv-sys__tag--day {\n    color: #c8a96e;\n    background: rgba(200, 169, 110, 0.08);\n    border: 1px solid rgba(200, 169, 110, 0.2);\n  }\n  .nv-sys__tag--night {\n    color: #e06666;\n    background: rgba(200, 60, 60, 0.08);\n    border: 1px solid rgba(200, 60, 60, 0.2);\n  }\n\n  .nv-sys__product {\n    font-size: 22px;\n    font-weight: 300;\n    color: #ffffff;\n    margin-bottom: 6px;\n    letter-spacing: -0.01em;\n  }\n  .nv-sys__product em {\n    font-style: normal;\n  }\n  .nv-sys__product--day em { color: #c8a96e; }\n  .nv-sys__product--night em { color: #e06666; }\n\n  .nv-sys__when {\n    font-family: 'Courier New', monospace;\n    font-size: 11px;\n    color: #555;\n    margin-bottom: 32px;\n    letter-spacing: 0.05em;\n  }\n\n  /* Timeline dots */\n  .nv-sys__timeline {\n    display: flex;\n    flex-direction: column;\n    gap: 0;\n  }\n\n  .nv-sys__step {\n    display: flex;\n    gap: 18px;\n    align-items: flex-start;\n    position: relative;\n  }\n  .nv-sys__step:not(:last-child)::after {\n    content: '';\n    position: absolute;\n    left: 11px;\n    top: 24px;\n    width: 1px;\n    height: calc(100% + 4px);\n    background: #222;\n  }\n\n  .nv-sys__dot {\n    width: 23px;\n    height: 23px;\n    border-radius: 50%;\n    flex-shrink: 0;\n    margin-top: 2px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-family: 'Courier New', monospace;\n    font-size: 10px;\n    font-weight: bold;\n    position: relative;\n    z-index: 1;\n  }\n  .nv-sys__dot--day {\n    background: rgba(200, 169, 110, 0.12);\n    border: 1px solid rgba(200, 169, 110, 0.3);\n    color: #c8a96e;\n  }\n  .nv-sys__dot--night {\n    background: rgba(200, 60, 60, 0.12);\n    border: 1px solid rgba(200, 60, 60, 0.3);\n    color: #e06666;\n  }\n\n  .nv-sys__step-text {\n    padding-bottom: 24px;\n  }\n  .nv-sys__step-title {\n    font-size: 15px;\n    color: #e0e0e0;\n    margin-bottom: 4px;\n    font-weight: 400;\n  }\n  .nv-sys__step-desc {\n    font-size: 13px;\n    color: #666;\n    line-height: 1.6;\n  }\n\n  /* Result box */\n  .nv-sys__result {\n    margin-top: 32px;\n    padding: 20px 24px;\n    border-radius: 4px;\n  }\n  .nv-sys__result--day {\n    background: rgba(200, 169, 110, 0.05);\n    border: 1px solid rgba(200, 169, 110, 0.15);\n  }\n  .nv-sys__result--night {\n    background: rgba(200, 60, 60, 0.05);\n    border: 1px solid rgba(200, 60, 60, 0.15);\n  }\n  .nv-sys__result-label {\n    font-family: 'Courier New', monospace;\n    font-size: 9px;\n    letter-spacing: 0.2em;\n    text-transform: uppercase;\n    color: #444;\n    margin-bottom: 8px;\n  }\n  .nv-sys__result-text {\n    font-size: 14px;\n    line-height: 1.65;\n    color: #aaa;\n  }\n  .nv-sys__result-text strong { color: #ddd; font-weight: 400; }\n\n  /* Mobile */\n  @media (max-width: 768px) {\n    .nv-sys { padding: 56px 20px; }\n    .nv-sys__split {\n      grid-template-columns: 1fr;\n    }\n    .nv-sys__divider {\n      width: 100%;\n      height: 1px;\n      background: linear-gradient(to right, transparent, #333 20%, #333 80%, transparent);\n    }\n    .nv-sys__card { padding: 40px 0; }\n    .nv-sys__heading { font-size: 24px; }\n  }\n</style>\n\n<section class=\"nv-sys\">\n\n  <div class=\"nv-sys__header\">\n    <div class=\"nv-sys__eyebrow\">A rendszer</div>\n    <h2 class=\"nv-sys__heading\">Nappal véded a szemed.<br><em>Éjjel visszakapod az alvásod.</em></h2>\n  </div>\n\n  <div class=\"nv-sys__split\">\n\n    <!-- DAY -->\n    <div class=\"nv-sys__card nv-sys__card--day\">\n      <div class=\"nv-sys__icon nv-sys__icon--day\">☀️</div>\n      <div class=\"nv-sys__tag nv-sys__tag--day\">Napközben · FocusLens™</div>\n      <div class=\"nv-sys__product nv-sys__product--day\">Sárga lencse — <em>nappali védelem</em></div>\n      <div class=\"nv-sys__when\">Reggeltől munkavégzés végéig</div>\n\n      <div class=\"nv-sys__timeline\">\n        <div class=\"nv-sys__step\">\n          <div class=\"nv-sys__dot nv-sys__dot--day\">1</div>\n          <div class=\"nv-sys__step-text\">\n            <div class=\"nv-sys__step-title\">Reggel felveszed</div>\n            <div class=\"nv-sys__step-desc\">Leülsz a géphez, felveszed a FocusLens-t. Ennyi — semmi más teendőd.</div>\n          </div>\n        </div>\n        <div class=\"nv-sys__step\">\n          <div class=\"nv-sys__dot nv-sys__dot--day\">2</div>\n          <div class=\"nv-sys__step-text\">\n            <div class=\"nv-sys__step-title\">Szűri a kékfényt</div>\n            <div class=\"nv-sys__step-desc\">40-45%-os szűrés csökkenti a szem terhelését anélkül, hogy torzítaná a színeket.</div>\n          </div>\n        </div>\n        <div class=\"nv-sys__step\">\n          <div class=\"nv-sys__dot nv-sys__dot--day\">3</div>\n          <div class=\"nv-sys__step-text\">\n            <div class=\"nv-sys__step-title\">Este leveszed</div>\n            <div class=\"nv-sys__step-desc\">Befejezed a munkát, leveszed. A szemed és az agyad kevesebbet fáradt el a nap folyamán.</div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"nv-sys__result nv-sys__result--day\">\n        <div class=\"nv-sys__result-label\">Eredmény</div>\n        <div class=\"nv-sys__result-text\">\n          <strong>Élesebb fókusz délutánra is.</strong> Kevesebb fejfájás, kevesebb szem mögötti nyomás. Este még van energiád — nem rogysz le rögtön hazaérve.\n        </div>\n      </div>\n    </div>\n\n    <!-- DIVIDER -->\n    <div class=\"nv-sys__divider\"></div>\n\n    <!-- NIGHT -->\n    <div class=\"nv-sys__card nv-sys__card--night\">\n      <div class=\"nv-sys__icon nv-sys__icon--night\">🌙</div>\n      <div class=\"nv-sys__tag nv-sys__tag--night\">Este · WellnesLens™</div>\n      <div class=\"nv-sys__product nv-sys__product--night\">Vörös lencse — <em>esti lekapcsolás</em></div>\n      <div class=\"nv-sys__when\">Lefekvés előtt 1–2 órával</div>\n\n      <div class=\"nv-sys__timeline\">\n        <div class=\"nv-sys__step\">\n          <div class=\"nv-sys__dot nv-sys__dot--night\">1</div>\n          <div class=\"nv-sys__step-text\">\n            <div class=\"nv-sys__step-title\">Este felveszed</div>\n            <div class=\"nv-sys__step-desc\">Lefekvés előtt 1-2 órával felveszed a WellnesLens-t. Nyugodtan scrollozhatsz, nézhetsz sorozatot.</div>\n          </div>\n        </div>\n        <div class=\"nv-sys__step\">\n          <div class=\"nv-sys__dot nv-sys__dot--night\">2</div>\n          <div class=\"nv-sys__step-text\">\n            <div class=\"nv-sys__step-title\">Az agy megkapja a jelet</div>\n            <div class=\"nv-sys__step-desc\">97-100%-os kékfény blokkolás. Az agyad azt érzékeli, hogy sötét van — melatonin termelés elindul.</div>\n          </div>\n        </div>\n        <div class=\"nv-sys__step\">\n          <div class=\"nv-sys__dot nv-sys__dot--night\">3</div>\n          <div class=\"nv-sys__step-text\">\n            <div class=\"nv-sys__step-title\">Lefekszel és elalszol</div>\n            <div class=\"nv-sys__step-desc\">Percek alatt elalszol. Nem forgolódsz. Az alvásod mélyebb — reggel kipihenten ébredsz.</div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"nv-sys__result nv-sys__result--night\">\n        <div class=\"nv-sys__result-label\">Eredmény</div>\n        <div class=\"nv-sys__result-text\">\n          <strong>Mélyebb alvás. Több energia reggel.</strong> Nincs bűntudat az esti telefon miatt — a lencse gondoskodik róla, hogy az agyad felkészüljön az alvásra.\n        </div>\n      </div>\n    </div>\n\n  </div>\n\n</section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -242,6 +315,8 @@
     "17510116181812636e",
     "images_with_text_scrolling_jAzAhd",
     "custom_liquid_zYLdFX",
-    "media_with_text_PmnWb9"
+    "media_with_text_PmnWb9",
+    "testimonials_yjGr4a",
+    "custom_liquid_YYwGrQ"
   ]
 }
