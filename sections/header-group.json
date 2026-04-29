@@ -17,37 +17,21 @@
         "message_VKdX8q": {
           "type": "message",
           "settings": {
-            "text": "Offerta autunnale limitata, fino a -50%",
+            "text": "🕐 LIMITÁLT: A teljes készletünkre -40% kedvezményt biztosítunk",
             "url": ""
           }
         },
         "message_Jqwbyz": {
           "type": "message",
           "settings": {
-            "text": "Pagamento 100% sicuro",
-            "url": ""
-          }
-        },
-        "message": {
-          "type": "message",
-          "settings": {
-            "text": "Spedizione gratuita",
-            "url": ""
-          }
-        },
-        "message_pPbVj6": {
-          "type": "message",
-          "settings": {
-            "text": "Soddisfatti o rimborsati",
+            "text": "🚚 1-2 napos gls szállítás, utánvétes fizetés",
             "url": ""
           }
         }
       },
       "block_order": [
         "message_VKdX8q",
-        "message_Jqwbyz",
-        "message",
-        "message_pPbVj6"
+        "message_Jqwbyz"
       ],
       "settings": {
         "enable_sticky": true,
