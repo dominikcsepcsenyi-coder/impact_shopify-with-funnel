@@ -173,9 +173,9 @@
       "name": "Comparison table",
       "settings": {
         "full_width": true,
-        "subheading": "Compare",
-        "title": "Product comparison",
-        "content": "<p>Give your customers useful information about your products and showcase differences between them.</p>",
+        "subheading": "",
+        "title": "Közönségkedvenc termékeink",
+        "content": "<p>Nappal vagy éjjel — vagy mindkettő?</p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
