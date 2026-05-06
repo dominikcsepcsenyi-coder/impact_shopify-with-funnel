@@ -12,10 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {}
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -36,6 +32,12 @@
           "type": "rating",
           "settings": {
             "show_empty": false
+          }
+        },
+        "text_EWzD9p": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Limitált: 1 szemüveg áráért kettőt kap! (Piros lencse + Sárga lencse!)</p>"
           }
         },
         "payment_terms": {
@@ -82,11 +84,11 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "badges",
         "price",
         "rating",
+        "text_EWzD9p",
         "payment_terms",
         "separator",
         "description",
