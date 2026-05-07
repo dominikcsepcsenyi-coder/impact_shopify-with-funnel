@@ -76,6 +76,14 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "links_qW8B9H": {
+          "type": "links",
+          "settings": {
+            "menu": "almen",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
         "text_JgQmjY": {
           "type": "text",
           "settings": {
@@ -86,6 +94,7 @@
         }
       },
       "block_order": [
+        "links_qW8B9H",
         "text_JgQmjY"
       ],
       "settings": {
