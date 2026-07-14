@@ -142,6 +142,19 @@
         "input_text_color": ""
       }
     },
+    "custom_liquid_3yeakV": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"kz-compare\">\n  <h3 class=\"kz-compare-title\">Miért más a KiddoZone?</h3>\n  <div class=\"kz-compare-table\">\n    <div class=\"kz-compare-head\">\n      <div class=\"kz-compare-label\"></div>\n      <div class=\"kz-compare-us\">KiddoZone</div>\n      <div class=\"kz-compare-them\">Hagyományos módszer</div>\n    </div>\n    <div class=\"kz-compare-row\">\n      <div class=\"kz-compare-label\">A gyerek…</div>\n      <div class=\"kz-compare-us\"><span class=\"kz-yes\">✓</span> önként veszi elő</div>\n      <div class=\"kz-compare-them\"><span class=\"kz-no\">✕</span> könyörögni kell neki</div>\n    </div>\n    <div class=\"kz-compare-row\">\n      <div class=\"kz-compare-label\">Tanulás módja</div>\n      <div class=\"kz-compare-us\"><span class=\"kz-yes\">✓</span> kézzel fogható, játékos</div>\n      <div class=\"kz-compare-them\"><span class=\"kz-no\">✕</span> magolás, száraz gyakorlás</div>\n    </div>\n    <div class=\"kz-compare-row\">\n      <div class=\"kz-compare-label\">Képernyő</div>\n      <div class=\"kz-compare-us\"><span class=\"kz-yes\">✓</span> teljesen kijelzőmentes</div>\n      <div class=\"kz-compare-them\"><span class=\"kz-no\">✕</span> tablet, telefon</div>\n    </div>\n    <div class=\"kz-compare-row\">\n      <div class=\"kz-compare-label\">Közös élmény</div>\n      <div class=\"kz-compare-us\"><span class=\"kz-yes\">✓</span> együtt játszotok</div>\n      <div class=\"kz-compare-them\"><span class=\"kz-no\">✕</span> egyedül küzd vele</div>\n    </div>\n    <div class=\"kz-compare-row\">\n      <div class=\"kz-compare-label\">Eredmény</div>\n      <div class=\"kz-compare-us\"><span class=\"kz-yes\">✓</span> megérti és megszereti</div>\n      <div class=\"kz-compare-them\"><span class=\"kz-no\">✕</span> fél tőle, elakad</div>\n    </div>\n  </div>\n</div>\n<style>\n  .kz-compare {\n    max-width: 600px;\n    margin: 0 auto;\n    font-family: inherit;\n  }\n  .kz-compare-title {\n    text-align: center;\n    font-size: 18px;\n    color: #1B4DB3;\n    margin: 0 0 16px;\n  }\n  .kz-compare-table {\n    border: 2px solid #2D6AFF;\n    border-radius: 16px;\n    overflow: hidden;\n    box-shadow: 0 4px 14px rgba(45,106,255,0.10);\n  }\n  .kz-compare-head,\n  .kz-compare-row {\n    display: grid;\n    grid-template-columns: 1fr 1.1fr 1.1fr;\n    align-items: stretch;\n  }\n  .kz-compare-head {\n    background: linear-gradient(135deg, #2D6AFF, #1B4DB3);\n    font-weight: 700;\n    font-size: 13px;\n    text-align: center;\n  }\n  .kz-compare-head > div {\n    padding: 12px 8px;\n    color: #fff;\n  }\n  .kz-compare-head .kz-compare-label,\n  .kz-compare-head .kz-compare-us,\n  .kz-compare-head .kz-compare-them {\n    color: #fff;\n    background: transparent;\n  }\n  .kz-compare-row {\n    border-top: 1px solid #E3ECF9;\n    font-size: 12.5px;\n    line-height: 1.35;\n  }\n  .kz-compare-row > div {\n    padding: 12px 10px;\n    display: flex;\n    align-items: center;\n    gap: 6px;\n  }\n  .kz-compare-label {\n    font-weight: 700;\n    color: #1f3a5f;\n    background: #fff;\n    justify-content: flex-start;\n  }\n  .kz-compare-us {\n    background: #F5F9FF;\n    color: #14532d;\n    font-weight: 600;\n  }\n  .kz-compare-them {\n    color: #7a7a7a;\n    background: #fff;\n  }\n  .kz-yes {\n    color: #22a03f;\n    font-weight: 800;\n    flex-shrink: 0;\n  }\n  .kz-no {\n    color: #c0392b;\n    font-weight: 800;\n    flex-shrink: 0;\n  }\n  @media (max-width: 480px) {\n    .kz-compare-head,\n    .kz-compare-row {\n      grid-template-columns: 0.8fr 1fr 1fr;\n      font-size: 11px;\n    }\n    .kz-compare-row > div { padding: 10px 6px; }\n    .kz-compare-head > div { padding: 10px 4px; }\n  }\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "17510116181812636e": {
       "type": "apps",
       "settings": {
@@ -156,6 +169,7 @@
   },
   "order": [
     "main",
+    "custom_liquid_3yeakV",
     "17510116181812636e"
   ]
 }
