@@ -87,8 +87,8 @@
         "text_JgQmjY": {
           "type": "text",
           "settings": {
-            "title": "Kiddozone Magyarország",
-            "content": "<p>Az ügyfélszolgálatunk minden kérdésben rendelkezésedre áll:</p><p> Hétfőtől péntekig: 9:00 – 17:00 </p><p>📧 E-mail: kiddozone.hivatalos@gmail.com </p><p>Minden megkeresésre a lehető leghamarabb válaszolunk.</p>",
+            "title": "KiddoZone Magyarország",
+            "content": "<p>Az ügyfélszolgálatunk minden kérdésben rendelkezésedre áll:<br/></p><p>Hétfőtől péntekig: 9:00 – 17:00<br/></p><p>📧 E-mail: kiddozone.hivatalos@gmail.com<br/>Minden megkeresésre a lehető leghamarabb válaszolunk.</p>",
             "enable_follow_on_shop": false
           }
         }
