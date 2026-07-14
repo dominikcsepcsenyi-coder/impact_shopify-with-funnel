@@ -15,7 +15,6 @@
         "image_hbqM4L": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Gemini_Generated_Image_wfjx4zwfjx4zwfjx-clean_b43bc994-0505-43e6-bd64-ae67bef6e3bf.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -50,160 +49,9 @@
         "background": "#f2f2f2",
         "background_gradient": ""
       }
-    },
-    "featured_collection_UneUNt": {
-      "type": "featured-collection",
-      "name": "Featured collection",
-      "settings": {
-        "collection": "",
-        "products": [
-          "noctis-vision-wellnesslens™",
-          "noctis-vision-fokusz-es-wellness-rendszer",
-          "noctis-vision-focuslens™"
-        ],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_count": 6,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "A szemed egészségéért, nappal és este.",
-        "content": "",
-        "link_url": "",
-        "link_text": "Nézd meg",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "comparison_table_TxELw8": {
-      "type": "comparison-table",
-      "blocks": {
-        "headings_tTyNW3": {
-          "type": "headings",
-          "settings": {
-            "heading_1": "Kékfény szűrés",
-            "heading_2": "Mikor viseld?",
-            "heading_3": "Fő hatás",
-            "heading_4": "Délutáni energia",
-            "heading_5": "Stressz és feszültség",
-            "heading_6": "Hosszú távú hatás",
-            "heading_7": "",
-            "heading_8": "",
-            "heading_9": "",
-            "heading_10": "",
-            "heading_11": "",
-            "heading_12": "",
-            "heading_13": "",
-            "heading_14": "",
-            "heading_15": "",
-            "heading_16": "",
-            "heading_17": "",
-            "heading_18": "",
-            "heading_19": "",
-            "heading_20": ""
-          }
-        },
-        "values_W4MNzH": {
-          "type": "values",
-          "settings": {
-            "product": "noctis-vision-focuslens™",
-            "value_1": "<p>nappali viselethez optimális</p>",
-            "value_2": "<p>Reggeltől sötétedésig hordhatod</p>",
-            "value_3": "<p>Élesebb fókusz, kevesebb fejfájás, kevesebb mentális fáradtság</p>",
-            "value_4": "<p>Nem merül le a koncentrációd munkaidő végére</p>",
-            "value_5": "<p>Csökkenti a képernyős szemfáradásból eredő mentális terhelést</p>",
-            "value_6": "<p>Napi rendszeres használattal kevesebb fejfájás, jobb munkateljesítmény</p>",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": "",
-            "value_11": "",
-            "value_12": "",
-            "value_13": "",
-            "value_14": "",
-            "value_15": "",
-            "value_16": "",
-            "value_17": "",
-            "value_18": "",
-            "value_19": "",
-            "value_20": "",
-            "view_button_background": "",
-            "view_button_text_color": ""
-          }
-        },
-        "values_r4ekQX": {
-          "type": "values",
-          "settings": {
-            "product": "noctis-vision-wellnesslens™",
-            "value_1": "<p>97-100% — teljes blokkolás</p>",
-            "value_2": "<p>Lefekvés előtt 2-3 órával</p>",
-            "value_3": "<p>Gyorsabb elalvás, mélyebb alvás</p>",
-            "value_4": "<p>Reggel kipihenten, energikusan ébredsz</p>",
-            "value_5": "<p>Lecsillapítja az idegrendszert lefekvés előtt</p>",
-            "value_6": "<p>Helyreállítja a természetes bioritmusát, javítja az alvás minőségét</p>",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": "",
-            "value_11": "",
-            "value_12": "",
-            "value_13": "",
-            "value_14": "",
-            "value_15": "",
-            "value_16": "",
-            "value_17": "",
-            "value_18": "",
-            "value_19": "",
-            "value_20": "",
-            "view_button_background": "",
-            "view_button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "headings_tTyNW3",
-        "values_W4MNzH",
-        "values_r4ekQX"
-      ],
-      "name": "Comparison table",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "Közönségkedvenc termékeink",
-        "content": "<p>Nappal vagy éjjel — vagy mindkettő?</p>",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "max_rows": 5,
-        "view_all_text": "Bővebben",
-        "view_less_text": "Kevesebb",
-        "view_product": "Megnézem",
-        "show_product_info": true,
-        "show_product_image": true,
-        "show_product_swatch": true,
-        "viewing_product": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "chart_background": "",
-        "chart_text_color": "",
-        "chart_true_false_color": ""
-      }
     }
   },
   "order": [
-    "slideshow_4be6Kf",
-    "featured_collection_UneUNt",
-    "comparison_table_TxELw8"
+    "slideshow_4be6Kf"
   ]
 }
