@@ -40,7 +40,7 @@
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#324b51",
+        "background": "#3DB600",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
@@ -50,7 +50,7 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/NOCTIS_VISION_1.png",
+        "logo": "shopify://shop_images/KIDDO-2.png",
         "logo_max_width": 260,
         "logo_mobile_max_width": 170,
         "menu": "main-menu",
