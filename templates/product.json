@@ -168,6 +168,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_PaAnnt": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"kz-faq\">\n  <h3 class=\"kz-faq-title\">Gyakori kérdések</h3>\n\n  <div class=\"kz-faq-item\">\n    <button class=\"kz-faq-trigger\" onclick=\"toggleFaq(this)\">\n      <span>Hány éves kortól ajánlott?</span>\n      <span class=\"kz-faq-chevron\">&#8964;</span>\n    </button>\n    <div class=\"kz-faq-body\"><p>Elsősorban 7–9 éveseknek (2–3. osztály), amikor a szorzótábla először előjön. A könnyebb módokkal 6 évesek, a nehezebbekkel idősebbek is használhatják.</p></div>\n  </div>\n\n  <div class=\"kz-faq-item\">\n    <button class=\"kz-faq-trigger\" onclick=\"toggleFaq(this)\">\n      <span>Magyar a játékszabály?</span>\n      <span class=\"kz-faq-chevron\">&#8964;</span>\n    </button>\n    <div class=\"kz-faq-body\"><p>Igen. Magyar nyelvű játékszabályt és szülői útmutatót mellékelünk, weboldalunkon is elérhető.</p></div>\n  </div>\n\n  <div class=\"kz-faq-item\">\n    <button class=\"kz-faq-trigger\" onclick=\"toggleFaq(this)\">\n      <span>Kell hozzá szülői segítség?</span>\n      <span class=\"kz-faq-chevron\">&#8964;</span>\n    </button>\n    <div class=\"kz-faq-body\"><p>Az elején jó, ha együtt játszotok — pont ez a lényeg. A 21 napos terv napról napra megmondja, mit csináljatok, így nem kell semmit kitalálnod.</p></div>\n  </div>\n\n  <div class=\"kz-faq-item\">\n    <button class=\"kz-faq-trigger\" onclick=\"toggleFaq(this)\">\n      <span>Mennyi idő alatt érkezik meg?</span>\n      <span class=\"kz-faq-chevron\">&#8964;</span>\n    </button>\n    <div class=\"kz-faq-body\"><p>Magyar raktárból, GLS-sel jellemzően 1–2 munkanap. Fizethetsz utánvéttel is a futárnál.</p></div>\n  </div>\n\n  <div class=\"kz-faq-item\">\n    <button class=\"kz-faq-trigger\" onclick=\"toggleFaq(this)\">\n      <span>Mi van, ha nem tetszik?</span>\n      <span class=\"kz-faq-chevron\">&#8964;</span>\n    </button>\n    <div class=\"kz-faq-body\"><p>30 napos elégedettségi garanciát adunk. Ha bármi okból nem vagy elégedett, visszaküldheted és visszatérítjük a teljes vételárat.</p></div>\n  </div>\n\n</div>\n<style>\n  .kz-faq {\n    max-width: 560px;\n    margin: 0 auto;\n    font-family: inherit;\n  }\n  .kz-faq-title {\n    text-align: center;\n    font-size: 16px;\n    color: #1B4DB3;\n    margin: 0 0 14px;\n  }\n  .kz-faq-item {\n    border: 1.5px solid #E3ECF9;\n    border-radius: 12px;\n    margin-bottom: 8px;\n    overflow: hidden;\n    background: #fff;\n  }\n  .kz-faq-trigger {\n    width: 100%;\n    background: linear-gradient(135deg, #F5F9FF, #EAF3FF);\n    border: none;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 13px 16px;\n    font-size: 13px;\n    font-weight: 700;\n    color: #1B4DB3;\n    cursor: pointer;\n    text-align: left;\n    gap: 10px;\n  }\n  .kz-faq-chevron {\n    font-size: 16px;\n    flex-shrink: 0;\n    color: #2D6AFF;\n    transition: transform 0.25s ease;\n  }\n  .kz-faq-item.open .kz-faq-chevron { transform: rotate(180deg); }\n  .kz-faq-body {\n    display: none;\n    padding: 12px 16px;\n    font-size: 13px;\n    color: #1f3a5f;\n    line-height: 1.55;\n  }\n  .kz-faq-item.open .kz-faq-body { display: block; }\n  .kz-faq-body p { margin: 0; }\n</style>\n<script>\n  function toggleFaq(btn) {\n    btn.closest('.kz-faq-item').classList.toggle('open');\n  }\n</script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "17510116181812636e": {
       "type": "apps",
       "settings": {
@@ -184,6 +197,7 @@
     "main",
     "custom_liquid_3yeakV",
     "custom_liquid_tjTj97",
+    "custom_liquid_PaAnnt",
     "17510116181812636e"
   ]
 }
