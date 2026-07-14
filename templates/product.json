@@ -18,12 +18,6 @@
             "heading_tag": "h2"
           }
         },
-        "liquid_x3F3Xq": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"kz-trust\">\n  <div class=\"kz-trust-item\">\n    <span class=\"kz-trust-ico\">🚚</span>\n    <span class=\"kz-trust-txt\"><strong>1–2 napos</strong> GLS szállítás</span>\n  </div>\n  <div class=\"kz-trust-item\">\n    <span class=\"kz-trust-ico\">✅</span>\n    <span class=\"kz-trust-txt\"><strong>14 napos</strong> garancia</span>\n  </div>\n  <div class=\"kz-trust-item\">\n    <span class=\"kz-trust-ico\">🇭🇺</span>\n    <span class=\"kz-trust-txt\"><strong>Magyar</strong> raktárból</span>\n  </div>\n  <div class=\"kz-trust-item\">\n    <span class=\"kz-trust-ico\">💳</span>\n    <span class=\"kz-trust-txt\"><strong>Utánvét</strong> is lehet</span>\n  </div>\n</div>\n<style>\n  .kz-trust {\n    max-width: 600px;\n    margin: 14px auto;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    gap: 8px;\n    font-family: inherit;\n  }\n  .kz-trust-item {\n    display: inline-flex;\n    align-items: center;\n    gap: 6px;\n    padding: 7px 14px;\n    background: #F5F9FF;\n    border-radius: 999px;\n    font-size: 12px;\n    color: #1f3a5f;\n    white-space: nowrap;\n  }\n  .kz-trust-ico {\n    font-size: 15px;\n    line-height: 1;\n  }\n  .kz-trust-txt strong {\n    color: #2D6AFF;\n    font-weight: 700;\n  }\n</style>"
-          }
-        },
         "liquid_dqfPBM": {
           "type": "liquid",
           "settings": {
@@ -115,7 +109,6 @@
       },
       "block_order": [
         "title",
-        "liquid_x3F3Xq",
         "liquid_dqfPBM",
         "liquid_xdMJE9",
         "liquid_8Ungen",
@@ -162,6 +155,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_tjTj97": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"kz-stack\">\n  <h3 class=\"kz-stack-title\">🎁 Ezt kapod most ajándékba</h3>\n  <div class=\"kz-stack-row\">\n    <span class=\"kz-stack-name\">21 napos szorzótábla-terv</span>\n    <span class=\"kz-stack-val\">3.990 Ft</span>\n  </div>\n  <div class=\"kz-stack-row\">\n    <span class=\"kz-stack-name\">Szorzójátékok Otthonra e-book</span>\n    <span class=\"kz-stack-val\">5.990 Ft</span>\n  </div>\n  <div class=\"kz-stack-row\">\n    <span class=\"kz-stack-name\">„Hogyan előzd meg a matek-szorongást?\" útmutató</span>\n    <span class=\"kz-stack-val\">2.990 Ft</span>\n  </div>\n  <div class=\"kz-stack-total\">\n    <span class=\"kz-stack-name\">Összérték</span>\n    <span class=\"kz-stack-val\"><s>12.990 Ft</s></span>\n  </div>\n  <div class=\"kz-stack-free\">\n    MOST <strong>INGYEN</strong> a csomag mellé 🎉\n  </div>\n</div>\n<style>\n  .kz-stack {\n    max-width: 560px;\n    margin: 0 auto;\n    background: linear-gradient(135deg, #F5F9FF, #EAF3FF);\n    border: 2px solid #2D6AFF;\n    border-radius: 16px;\n    padding: 20px;\n    box-shadow: 0 4px 14px rgba(45,106,255,0.10);\n    font-family: inherit;\n  }\n  .kz-stack-title {\n    text-align: center;\n    font-size: 16px;\n    color: #1B4DB3;\n    margin: 0 0 14px;\n  }\n  .kz-stack-row,\n  .kz-stack-total {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    gap: 10px;\n    padding: 9px 0;\n    border-bottom: 1px dashed #C7DBF5;\n    font-size: 13px;\n    color: #1f3a5f;\n  }\n  .kz-stack-name { line-height: 1.35; }\n  .kz-stack-val { flex-shrink: 0; font-weight: 600; color: #1B4DB3; }\n  .kz-stack-total {\n    border-bottom: none;\n    font-weight: 700;\n    font-size: 14px;\n    padding-top: 12px;\n  }\n  .kz-stack-total .kz-stack-val s { color: #c0392b; }\n  .kz-stack-free {\n    margin-top: 12px;\n    text-align: center;\n    background: #2D6AFF;\n    color: #fff;\n    border-radius: 10px;\n    padding: 11px;\n    font-size: 14px;\n  }\n  .kz-stack-free strong { font-size: 15px; }\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "17510116181812636e": {
       "type": "apps",
       "settings": {
@@ -177,6 +183,7 @@
   "order": [
     "main",
     "custom_liquid_3yeakV",
+    "custom_liquid_tjTj97",
     "17510116181812636e"
   ]
 }
