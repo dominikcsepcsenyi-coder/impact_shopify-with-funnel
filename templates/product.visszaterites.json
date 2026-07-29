@@ -124,6 +124,7 @@
         "variant_picker",
         "quantity_selector"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": true,
@@ -141,63 +142,9 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
-    },
-    "custom_liquid_3yeakV": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"kz-compare\">\n  <h3 class=\"kz-compare-title\">Miért más a KiddoZone?</h3>\n  <div class=\"kz-compare-table\">\n    <div class=\"kz-compare-head\">\n      <div class=\"kz-compare-label\"></div>\n      <div class=\"kz-compare-us\">KiddoZone</div>\n      <div class=\"kz-compare-them\">Hagyományos módszer</div>\n    </div>\n    <div class=\"kz-compare-row\">\n      <div class=\"kz-compare-label\">A gyerek…</div>\n      <div class=\"kz-compare-us\"><span class=\"kz-yes\">✓</span> önként veszi elő</div>\n      <div class=\"kz-compare-them\"><span class=\"kz-no\">✕</span> könyörögni kell neki</div>\n    </div>\n    <div class=\"kz-compare-row\">\n      <div class=\"kz-compare-label\">Tanulás módja</div>\n      <div class=\"kz-compare-us\"><span class=\"kz-yes\">✓</span> kézzel fogható, játékos</div>\n      <div class=\"kz-compare-them\"><span class=\"kz-no\">✕</span> magolás, száraz gyakorlás</div>\n    </div>\n    <div class=\"kz-compare-row\">\n      <div class=\"kz-compare-label\">Képernyő</div>\n      <div class=\"kz-compare-us\"><span class=\"kz-yes\">✓</span> teljesen kijelzőmentes</div>\n      <div class=\"kz-compare-them\"><span class=\"kz-no\">✕</span> tablet, telefon</div>\n    </div>\n    <div class=\"kz-compare-row\">\n      <div class=\"kz-compare-label\">Közös élmény</div>\n      <div class=\"kz-compare-us\"><span class=\"kz-yes\">✓</span> együtt játszotok</div>\n      <div class=\"kz-compare-them\"><span class=\"kz-no\">✕</span> egyedül küzd vele</div>\n    </div>\n    <div class=\"kz-compare-row\">\n      <div class=\"kz-compare-label\">Eredmény</div>\n      <div class=\"kz-compare-us\"><span class=\"kz-yes\">✓</span> megérti és megszereti</div>\n      <div class=\"kz-compare-them\"><span class=\"kz-no\">✕</span> fél tőle, elakad</div>\n    </div>\n  </div>\n</div>\n<style>\n  .kz-compare {\n    max-width: 600px;\n    margin: 0 auto;\n    font-family: inherit;\n  }\n  .kz-compare-title {\n    text-align: center;\n    font-size: 18px;\n    color: #1B4DB3;\n    margin: 0 0 16px;\n  }\n  .kz-compare-table {\n    border: 2px solid #2D6AFF;\n    border-radius: 16px;\n    overflow: hidden;\n    box-shadow: 0 4px 14px rgba(45,106,255,0.10);\n  }\n  .kz-compare-head,\n  .kz-compare-row {\n    display: grid;\n    grid-template-columns: 1fr 1.1fr 1.1fr;\n    align-items: stretch;\n  }\n  .kz-compare-head {\n    background: linear-gradient(135deg, #2D6AFF, #1B4DB3);\n    font-weight: 700;\n    font-size: 13px;\n    text-align: center;\n  }\n  .kz-compare-head > div {\n    padding: 12px 8px;\n    color: #fff;\n  }\n  .kz-compare-head .kz-compare-label,\n  .kz-compare-head .kz-compare-us,\n  .kz-compare-head .kz-compare-them {\n    color: #fff;\n    background: transparent;\n  }\n  .kz-compare-row {\n    border-top: 1px solid #E3ECF9;\n    font-size: 12.5px;\n    line-height: 1.35;\n  }\n  .kz-compare-row > div {\n    padding: 12px 10px;\n    display: flex;\n    align-items: center;\n    gap: 6px;\n  }\n  .kz-compare-label {\n    font-weight: 700;\n    color: #1f3a5f;\n    background: #fff;\n    justify-content: flex-start;\n  }\n  .kz-compare-us {\n    background: #F5F9FF;\n    color: #14532d;\n    font-weight: 600;\n  }\n  .kz-compare-them {\n    color: #7a7a7a;\n    background: #fff;\n  }\n  .kz-yes {\n    color: #22a03f;\n    font-weight: 800;\n    flex-shrink: 0;\n  }\n  .kz-no {\n    color: #c0392b;\n    font-weight: 800;\n    flex-shrink: 0;\n  }\n  @media (max-width: 480px) {\n    .kz-compare-head,\n    .kz-compare-row {\n      grid-template-columns: 0.8fr 1fr 1fr;\n      font-size: 11px;\n    }\n    .kz-compare-row > div { padding: 10px 6px; }\n    .kz-compare-head > div { padding: 10px 4px; }\n  }\n</style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_liquid_tjTj97": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"kz-stack\">\n  <h3 class=\"kz-stack-title\">🎁 Ezt kapod most ajándékba</h3>\n  <div class=\"kz-stack-row\">\n    <span class=\"kz-stack-name\">21 napos szorzótábla-terv</span>\n    <span class=\"kz-stack-val\">3.990 Ft</span>\n  </div>\n  <div class=\"kz-stack-row\">\n    <span class=\"kz-stack-name\">Szorzójátékok Otthonra e-book</span>\n    <span class=\"kz-stack-val\">5.990 Ft</span>\n  </div>\n  <div class=\"kz-stack-row\">\n    <span class=\"kz-stack-name\">„Hogyan előzd meg a matek-szorongást?\" útmutató</span>\n    <span class=\"kz-stack-val\">2.990 Ft</span>\n  </div>\n  <div class=\"kz-stack-total\">\n    <span class=\"kz-stack-name\">Összérték</span>\n    <span class=\"kz-stack-val\"><s>12.990 Ft</s></span>\n  </div>\n  <div class=\"kz-stack-free\">\n    MOST <strong>INGYEN</strong> a csomag mellé 🎉\n  </div>\n</div>\n<style>\n  .kz-stack {\n    max-width: 560px;\n    margin: 0 auto;\n    background: linear-gradient(135deg, #F5F9FF, #EAF3FF);\n    border: 2px solid #2D6AFF;\n    border-radius: 16px;\n    padding: 20px;\n    box-shadow: 0 4px 14px rgba(45,106,255,0.10);\n    font-family: inherit;\n  }\n  .kz-stack-title {\n    text-align: center;\n    font-size: 16px;\n    color: #1B4DB3;\n    margin: 0 0 14px;\n  }\n  .kz-stack-row,\n  .kz-stack-total {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    gap: 10px;\n    padding: 9px 0;\n    border-bottom: 1px dashed #C7DBF5;\n    font-size: 13px;\n    color: #1f3a5f;\n  }\n  .kz-stack-name { line-height: 1.35; }\n  .kz-stack-val { flex-shrink: 0; font-weight: 600; color: #1B4DB3; }\n  .kz-stack-total {\n    border-bottom: none;\n    font-weight: 700;\n    font-size: 14px;\n    padding-top: 12px;\n  }\n  .kz-stack-total .kz-stack-val s { color: #c0392b; }\n  .kz-stack-free {\n    margin-top: 12px;\n    text-align: center;\n    background: #2D6AFF;\n    color: #fff;\n    border-radius: 10px;\n    padding: 11px;\n    font-size: 14px;\n  }\n  .kz-stack-free strong { font-size: 15px; }\n</style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_liquid_PaAnnt": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"kz-faq\">\n  <h3 class=\"kz-faq-title\">Gyakori kérdések</h3>\n\n  <div class=\"kz-faq-item\">\n    <button class=\"kz-faq-trigger\" onclick=\"toggleFaq(this)\">\n      <span>Hány éves kortól ajánlott?</span>\n      <span class=\"kz-faq-chevron\">&#8964;</span>\n    </button>\n    <div class=\"kz-faq-body\"><p>Elsősorban 7–9 éveseknek (2–3. osztály), amikor a szorzótábla először előjön. A könnyebb módokkal 6 évesek, a nehezebbekkel idősebbek is használhatják.</p></div>\n  </div>\n\n  <div class=\"kz-faq-item\">\n    <button class=\"kz-faq-trigger\" onclick=\"toggleFaq(this)\">\n      <span>Magyar a játékszabály?</span>\n      <span class=\"kz-faq-chevron\">&#8964;</span>\n    </button>\n    <div class=\"kz-faq-body\"><p>Igen. Magyar nyelvű játékszabályt és szülői útmutatót mellékelünk, weboldalunkon is elérhető.</p></div>\n  </div>\n\n  <div class=\"kz-faq-item\">\n    <button class=\"kz-faq-trigger\" onclick=\"toggleFaq(this)\">\n      <span>Kell hozzá szülői segítség?</span>\n      <span class=\"kz-faq-chevron\">&#8964;</span>\n    </button>\n    <div class=\"kz-faq-body\"><p>Az elején jó, ha együtt játszotok — pont ez a lényeg. A 21 napos terv napról napra megmondja, mit csináljatok, így nem kell semmit kitalálnod.</p></div>\n  </div>\n\n  <div class=\"kz-faq-item\">\n    <button class=\"kz-faq-trigger\" onclick=\"toggleFaq(this)\">\n      <span>Mennyi idő alatt érkezik meg?</span>\n      <span class=\"kz-faq-chevron\">&#8964;</span>\n    </button>\n    <div class=\"kz-faq-body\"><p>Magyar raktárból, GLS-sel jellemzően 1–2 munkanap. Fizethetsz utánvéttel is a futárnál.</p></div>\n  </div>\n\n  <div class=\"kz-faq-item\">\n    <button class=\"kz-faq-trigger\" onclick=\"toggleFaq(this)\">\n      <span>Mi van, ha nem tetszik?</span>\n      <span class=\"kz-faq-chevron\">&#8964;</span>\n    </button>\n    <div class=\"kz-faq-body\"><p>30 napos elégedettségi garanciát adunk. Ha bármi okból nem vagy elégedett, visszaküldheted és visszatérítjük a teljes vételárat.</p></div>\n  </div>\n\n</div>\n<style>\n  .kz-faq {\n    max-width: 560px;\n    margin: 0 auto;\n    font-family: inherit;\n  }\n  .kz-faq-title {\n    text-align: center;\n    font-size: 16px;\n    color: #1B4DB3;\n    margin: 0 0 14px;\n  }\n  .kz-faq-item {\n    border: 1.5px solid #E3ECF9;\n    border-radius: 12px;\n    margin-bottom: 8px;\n    overflow: hidden;\n    background: #fff;\n  }\n  .kz-faq-trigger {\n    width: 100%;\n    background: linear-gradient(135deg, #F5F9FF, #EAF3FF);\n    border: none;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 13px 16px;\n    font-size: 13px;\n    font-weight: 700;\n    color: #1B4DB3;\n    cursor: pointer;\n    text-align: left;\n    gap: 10px;\n  }\n  .kz-faq-chevron {\n    font-size: 16px;\n    flex-shrink: 0;\n    color: #2D6AFF;\n    transition: transform 0.25s ease;\n  }\n  .kz-faq-item.open .kz-faq-chevron { transform: rotate(180deg); }\n  .kz-faq-body {\n    display: none;\n    padding: 12px 16px;\n    font-size: 13px;\n    color: #1f3a5f;\n    line-height: 1.55;\n  }\n  .kz-faq-item.open .kz-faq-body { display: block; }\n  .kz-faq-body p { margin: 0; }\n</style>\n<script>\n  function toggleFaq(btn) {\n    btn.closest('.kz-faq-item').classList.toggle('open');\n  }\n</script>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "17510116181812636e": {
-      "type": "apps",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
-    "main",
-    "custom_liquid_3yeakV",
-    "custom_liquid_tjTj97",
-    "custom_liquid_PaAnnt",
-    "17510116181812636e"
+    "main"
   ]
 }
