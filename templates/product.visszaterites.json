@@ -1,0 +1,203 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "liquid_dqfPBM": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"kz-features\">\n  <div class=\"kz-feature\">\n    <span class=\"kz-icon\">🧒</span>\n    <span class=\"kz-text\">7–9 éves korig <em>(2–3. osztály)</em></span>\n  </div>\n  <div class=\"kz-feature\">\n    <span class=\"kz-icon\">🧮</span>\n    <span class=\"kz-text\">Játékká változtatja a szorzótáblát — ott, ahol a legtöbb gyerek elakad</span>\n  </div>\n  <div class=\"kz-feature\">\n    <span class=\"kz-icon\">🖐️</span>\n    <span class=\"kz-text\">Fejleszti a logikus gondolkodást, a koncentrációt és a finommotorikát</span>\n  </div>\n  <div class=\"kz-feature\">\n    <span class=\"kz-icon\">❤️</span>\n    <span class=\"kz-text\">Megelőzi a matek-szorongást és a szorzótábla miatti lemaradást</span>\n  </div>\n  <div class=\"kz-feature\">\n    <span class=\"kz-icon\">🌍</span>\n    <span class=\"kz-text\">A világszerte bevált Montessori-elvekre építve</span>\n  </div>\n  <div class=\"kz-feature\">\n    <span class=\"kz-icon\">🌳</span>\n    <span class=\"kz-text\">Prémium, tartós fa alapanyagok</span>\n  </div>\n  <div class=\"kz-feature kz-highlight\">\n    <span class=\"kz-icon\">🎁</span>\n    <span class=\"kz-text\">Ajándék 21 napos szorzótábla-terv + 2 ebook — <strong>12.990 Ft értékben INGYEN</strong></span>\n  </div>\n  <div class=\"kz-feature\">\n    <span class=\"kz-icon\">🛡️</span>\n    <span class=\"kz-text\"><strong>30 napos</strong> elégedettségi garancia</span>\n  </div>\n  <div class=\"kz-feature\">\n    <span class=\"kz-icon\">📦</span>\n    <span class=\"kz-text\"><strong>1–2 napos</strong> GLS szállítás</span>\n  </div>\n</div>\n<style>\n  .kz-features {\n    max-width: 560px;\n    margin: 0 auto;\n    display: flex;\n    flex-direction: column;\n    gap: 5px;\n    font-family: inherit;\n  }\n  .kz-feature {\n    display: flex;\n    align-items: center;\n    gap: 9px;\n    padding: 7px 12px;\n    background: #fff;\n    border-radius: 10px;\n    border: 1px solid #E3ECF9;\n    font-size: 12.5px;\n    color: #1f3a5f;\n    line-height: 1.35;\n    transition: transform 0.15s ease, box-shadow 0.15s ease;\n  }\n  .kz-feature:hover {\n    transform: translateX(2px);\n    box-shadow: 0 2px 8px rgba(45, 106, 255, 0.08);\n  }\n  .kz-icon {\n    font-size: 14px;\n    flex-shrink: 0;\n    width: 28px;\n    height: 28px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    background: linear-gradient(135deg, #EAF3FF, #D6E7FF);\n    border-radius: 8px;\n  }\n  .kz-text em {\n    color: #6b86a8;\n    font-style: normal;\n    font-size: 11px;\n  }\n  .kz-text strong {\n    color: #2D6AFF;\n  }\n  .kz-highlight {\n    background: linear-gradient(135deg, #FFF9E9, #FFF3D0);\n    border-color: #F0C417;\n  }\n  .kz-highlight .kz-icon {\n    background: linear-gradient(135deg, #FFEFB8, #FFE38A);\n  }\n</style>"
+          }
+        },
+        "liquid_xdMJE9": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"urgency-box\">\n  <p class=\"urgency-title\">ⓘ &nbsp;<strong>LIMITÁLT KÉSZLET!</strong></p>\n  <p class=\"urgency-body\"><strong>A KiddoZone Szorzókaland virálisan terjed a közösségi médiában.</strong> Ezáltal készletünk rohamosan fogy.</p>\n  <p class=\"urgency-cta\">👉 Ha szeretnél egyet biztosítani gyermekednek, <strong>rendelj még ma!</strong></p>\n</div>\n<style>\n  .urgency-box {\n    background: #f4f4f4;\n    border-radius: 12px;\n    padding: 18px 20px;\n    max-width: 600px;\n    margin: 0 auto;\n  }\n  .urgency-title {\n    font-size: 15px;\n    font-weight: 700;\n    margin: 0 0 10px 0;\n    display: flex;\n    align-items: center;\n  }\n  .urgency-body {\n    font-size: 14px;\n    margin: 0 0 10px 0;\n    line-height: 1.5;\n  }\n  .urgency-cta {\n    font-size: 14px;\n    margin: 0;\n    line-height: 1.5;\n  }\n}\n</style>"
+          }
+        },
+        "liquid_8Ungen": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "liquid_DXKrJM": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"shipping-trust-banner\">\n  <div class=\"shipping-item\">\n    <span class=\"green-dot\"></span>\n    <span class=\"shipping-text\">Szállítás 24 órán belül</span>\n  </div>\n  <div class=\"shipping-item\">\n    <span class=\"hu-flag\">🇭🇺</span>\n    <span class=\"shipping-text\">Magyar raktárból</span>\n  </div>\n</div>\n\n<style>\n  .shipping-trust-banner {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    gap: 40px;\n    background-color: #f8f8f8; /* Világosszürke háttér a kép szerint */\n    border-radius: 50px; /* Kapszula forma */\n    padding: 12px 30px;\n    margin: 20px auto;\n    max-width: fit-content;\n    border: 1px solid #eeeeee;\n  }\n\n  .shipping-item {\n    display: flex;\n    align-items: center;\n    gap: 12px;\n  }\n\n  .green-dot {\n    width: 14px;\n    height: 14px;\n    background-color: #94b29a; /* Tompa zöld szín a kép alapján */\n    border-radius: 50%;\n    display: inline-block;\n  }\n\n  .hu-flag {\n    font-size: 20px;\n    display: flex;\n    align-items: center;\n  }\n\n  .shipping-text {\n    font-weight: 700;\n    font-size: 15px;\n    color: #000000;\n    font-family: inherit;\n    white-space: nowrap;\n  }\n\n  /* Mobil optimalizálás: ha nem férne ki, egymás alá rakja */\n  @media screen and (max-width: 600px) {\n    .shipping-trust-banner {\n      flex-direction: column;\n      gap: 15px;\n      border-radius: 20px;\n      padding: 15px 25px;\n      width: 100%;\n    }\n  }\n</style>"
+          }
+        },
+        "liquid_PnR8rA": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"acc-wrapper\">\n\n  <div class=\"acc-item\">\n    <button class=\"acc-trigger\" onclick=\"toggleAcc(this)\">\n      <span>✅ Miért imádják a magyar szülők?</span>\n      <span class=\"acc-chevron\">&#8964;</span>\n    </button>\n    <div class=\"acc-body\">\n      <ul>\n        <li><strong>Kijelzőmentes fejlesztés:</strong> Végre egy hasznos elfoglaltság, ami távol tartja a gyereket a tablettől.</li>\n        <li><strong>Bevált módszer:</strong> A világ óvodáiban és iskoláiban évtizedek óta használt Montessori-elvekre épül.</li>\n        <li><strong>Azonnali sikerélmény:</strong> A „kézzel fogható\" logika miatt a gyerekek gyorsan rájönnek a megoldásokra, ami építi az önbizalmukat.</li>\n        <li><strong>Nem magolás:</strong> Tapasztalati úton rögzíti a szorzótáblát és az alapműveleteket — a szorzástól az osztásig.</li>\n      </ul>\n    </div>\n  </div>\n\n  <div class=\"acc-item\">\n    <button class=\"acc-trigger\" onclick=\"toggleAcc(this)\">\n      <span>💬 Kérdésed van? Keress minket bizalommal! 📱</span>\n      <span class=\"acc-chevron\">&#8964;</span>\n    </button>\n    <div class=\"acc-body\">\n      <p>Keress minket a <strong>kiddozone.hivatalos@gmail.com</strong> email címen. Általában 1 munkanapon belül válaszolunk.</p>\n    </div>\n  </div>\n\n  <div class=\"acc-item\">\n    <button class=\"acc-trigger\" onclick=\"toggleAcc(this)\">\n      <span>📦 Belföldi 1-2 napos szállítás utánvéttel</span>\n      <span class=\"acc-chevron\">&#8964;</span>\n    </button>\n    <div class=\"acc-body\">\n      <ul>\n        <li><strong>Gyorsaság:</strong> Rendelésed 1-2 munkanapon belül útnak indítjuk.</li>\n        <li><strong>Partnerünk:</strong> A megbízható GLS futárszolgálattal szállítunk az ország egész területén.</li>\n        <li><strong>Utánvét:</strong> Fizethetsz kényelmesen a futárnál készpénzzel vagy kártyával.</li>\n      </ul>\n    </div>\n  </div>\n\n  <div class=\"acc-item\">\n    <button class=\"acc-trigger\" onclick=\"toggleAcc(this)\">\n      <span>🎁 Csomag tartalma (+3 db ajándék)</span>\n      <span class=\"acc-chevron\">&#8964;</span>\n    </button>\n    <div class=\"acc-body\">\n      <p><strong>Eszközök:</strong></p>\n      <ul>\n        <li><strong>Fa alaplap:</strong> Keretet ad a rendezett, fókuszált gyakorláshoz.</li>\n        <li><strong>Cserélhető feladatlapok:</strong> Több játékmódot tesznek lehetővé egyetlen táblán.</li>\n        <li><strong>Szorzó- és osztáskártyák:</strong> Végigvezetnek a szorzótáblán és az osztáson.</li>\n        <li><strong>Színes korongok:</strong> Segítik a műveletek vizuális érzékelését és rögzülését.</li>\n        <li><strong>Számpálcikák és dobókockák:</strong> Játék közben fejlesztik a finommotorikát és a koncentrációt.</li>\n      </ul>\n      <p><strong>Ingyenes bónuszok:</strong></p>\n      <ul>\n        <li>🎁 <strong>21 Napos Szorzótábla-Terv:</strong> Napra lebontott útmutató a biztos haladáshoz.</li>\n        <li>🎁 <strong>Szorzójátékok Otthonra E-book:</strong> 20 kreatív játék a stresszmentes szorzótábláért.</li>\n        <li>🎁 <strong>Szülői útmutató:</strong> Tippek a matek-szorongás megelőzéséhez és az iskolai önbizalomhoz.</li>\n      </ul>\n      <p>A magyar nyelvű játékszabály és használati útmutató a csomagban érkezik, és elérhető weboldalunkon is.</p>\n    </div>\n  </div>\n\n</div>\n\n<style>\n  .acc-wrapper {\n    border: 2px solid #2D6AFF;\n    border-radius: 16px;\n    overflow: hidden;\n    max-width: 600px;\n    margin: 0 auto;\n    background: #fff;\n    box-shadow: 0 4px 14px rgba(45, 106, 255, 0.10);\n  }\n\n  .acc-item {\n    border-bottom: 1px solid #E3ECF9;\n  }\n\n  .acc-item:last-child {\n    border-bottom: none;\n  }\n\n  .acc-trigger {\n    width: 100%;\n    background: linear-gradient(135deg, #F5F9FF, #EAF3FF);\n    border: none;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 15px 18px;\n    font-size: 13px;\n    font-weight: 700;\n    cursor: pointer;\n    text-align: left;\n    gap: 10px;\n    letter-spacing: 0.2px;\n    color: #1B4DB3;\n    transition: background 0.2s ease;\n  }\n\n  .acc-trigger:hover {\n    background: linear-gradient(135deg, #EAF3FF, #DCEBFF);\n  }\n\n  .acc-chevron {\n    font-size: 18px;\n    flex-shrink: 0;\n    transition: transform 0.25s ease;\n    color: #2D6AFF;\n  }\n\n  .acc-item.open .acc-chevron {\n    transform: rotate(180deg);\n  }\n\n  .acc-body {\n    display: none;\n    padding: 4px 18px 16px;\n    font-size: 13px;\n    color: #1f3a5f;\n    line-height: 1.6;\n    background: #fff;\n  }\n\n  .acc-item.open .acc-body {\n    display: block;\n  }\n\n  .acc-body ul {\n    padding-left: 18px;\n    margin: 6px 0;\n  }\n\n  .acc-body li {\n    margin-bottom: 6px;\n  }\n\n  .acc-body li strong {\n    color: #1B4DB3;\n  }\n\n  .acc-body p {\n    margin: 8px 0 4px;\n  }\n</style>\n\n<script>\n  function toggleAcc(btn) {\n    const item = btn.closest('.acc-item');\n    item.classList.toggle('open');\n  }\n</script>"
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "liquid_dqfPBM",
+        "liquid_xdMJE9",
+        "liquid_8Ungen",
+        "badges",
+        "price",
+        "rating",
+        "buy_buttons",
+        "liquid_DXKrJM",
+        "liquid_PnR8rA",
+        "payment_terms",
+        "separator",
+        "description",
+        "variant_picker",
+        "quantity_selector"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "custom_liquid_3yeakV": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"kz-compare\">\n  <h3 class=\"kz-compare-title\">Miért más a KiddoZone?</h3>\n  <div class=\"kz-compare-table\">\n    <div class=\"kz-compare-head\">\n      <div class=\"kz-compare-label\"></div>\n      <div class=\"kz-compare-us\">KiddoZone</div>\n      <div class=\"kz-compare-them\">Hagyományos módszer</div>\n    </div>\n    <div class=\"kz-compare-row\">\n      <div class=\"kz-compare-label\">A gyerek…</div>\n      <div class=\"kz-compare-us\"><span class=\"kz-yes\">✓</span> önként veszi elő</div>\n      <div class=\"kz-compare-them\"><span class=\"kz-no\">✕</span> könyörögni kell neki</div>\n    </div>\n    <div class=\"kz-compare-row\">\n      <div class=\"kz-compare-label\">Tanulás módja</div>\n      <div class=\"kz-compare-us\"><span class=\"kz-yes\">✓</span> kézzel fogható, játékos</div>\n      <div class=\"kz-compare-them\"><span class=\"kz-no\">✕</span> magolás, száraz gyakorlás</div>\n    </div>\n    <div class=\"kz-compare-row\">\n      <div class=\"kz-compare-label\">Képernyő</div>\n      <div class=\"kz-compare-us\"><span class=\"kz-yes\">✓</span> teljesen kijelzőmentes</div>\n      <div class=\"kz-compare-them\"><span class=\"kz-no\">✕</span> tablet, telefon</div>\n    </div>\n    <div class=\"kz-compare-row\">\n      <div class=\"kz-compare-label\">Közös élmény</div>\n      <div class=\"kz-compare-us\"><span class=\"kz-yes\">✓</span> együtt játszotok</div>\n      <div class=\"kz-compare-them\"><span class=\"kz-no\">✕</span> egyedül küzd vele</div>\n    </div>\n    <div class=\"kz-compare-row\">\n      <div class=\"kz-compare-label\">Eredmény</div>\n      <div class=\"kz-compare-us\"><span class=\"kz-yes\">✓</span> megérti és megszereti</div>\n      <div class=\"kz-compare-them\"><span class=\"kz-no\">✕</span> fél tőle, elakad</div>\n    </div>\n  </div>\n</div>\n<style>\n  .kz-compare {\n    max-width: 600px;\n    margin: 0 auto;\n    font-family: inherit;\n  }\n  .kz-compare-title {\n    text-align: center;\n    font-size: 18px;\n    color: #1B4DB3;\n    margin: 0 0 16px;\n  }\n  .kz-compare-table {\n    border: 2px solid #2D6AFF;\n    border-radius: 16px;\n    overflow: hidden;\n    box-shadow: 0 4px 14px rgba(45,106,255,0.10);\n  }\n  .kz-compare-head,\n  .kz-compare-row {\n    display: grid;\n    grid-template-columns: 1fr 1.1fr 1.1fr;\n    align-items: stretch;\n  }\n  .kz-compare-head {\n    background: linear-gradient(135deg, #2D6AFF, #1B4DB3);\n    font-weight: 700;\n    font-size: 13px;\n    text-align: center;\n  }\n  .kz-compare-head > div {\n    padding: 12px 8px;\n    color: #fff;\n  }\n  .kz-compare-head .kz-compare-label,\n  .kz-compare-head .kz-compare-us,\n  .kz-compare-head .kz-compare-them {\n    color: #fff;\n    background: transparent;\n  }\n  .kz-compare-row {\n    border-top: 1px solid #E3ECF9;\n    font-size: 12.5px;\n    line-height: 1.35;\n  }\n  .kz-compare-row > div {\n    padding: 12px 10px;\n    display: flex;\n    align-items: center;\n    gap: 6px;\n  }\n  .kz-compare-label {\n    font-weight: 700;\n    color: #1f3a5f;\n    background: #fff;\n    justify-content: flex-start;\n  }\n  .kz-compare-us {\n    background: #F5F9FF;\n    color: #14532d;\n    font-weight: 600;\n  }\n  .kz-compare-them {\n    color: #7a7a7a;\n    background: #fff;\n  }\n  .kz-yes {\n    color: #22a03f;\n    font-weight: 800;\n    flex-shrink: 0;\n  }\n  .kz-no {\n    color: #c0392b;\n    font-weight: 800;\n    flex-shrink: 0;\n  }\n  @media (max-width: 480px) {\n    .kz-compare-head,\n    .kz-compare-row {\n      grid-template-columns: 0.8fr 1fr 1fr;\n      font-size: 11px;\n    }\n    .kz-compare-row > div { padding: 10px 6px; }\n    .kz-compare-head > div { padding: 10px 4px; }\n  }\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_tjTj97": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"kz-stack\">\n  <h3 class=\"kz-stack-title\">🎁 Ezt kapod most ajándékba</h3>\n  <div class=\"kz-stack-row\">\n    <span class=\"kz-stack-name\">21 napos szorzótábla-terv</span>\n    <span class=\"kz-stack-val\">3.990 Ft</span>\n  </div>\n  <div class=\"kz-stack-row\">\n    <span class=\"kz-stack-name\">Szorzójátékok Otthonra e-book</span>\n    <span class=\"kz-stack-val\">5.990 Ft</span>\n  </div>\n  <div class=\"kz-stack-row\">\n    <span class=\"kz-stack-name\">„Hogyan előzd meg a matek-szorongást?\" útmutató</span>\n    <span class=\"kz-stack-val\">2.990 Ft</span>\n  </div>\n  <div class=\"kz-stack-total\">\n    <span class=\"kz-stack-name\">Összérték</span>\n    <span class=\"kz-stack-val\"><s>12.990 Ft</s></span>\n  </div>\n  <div class=\"kz-stack-free\">\n    MOST <strong>INGYEN</strong> a csomag mellé 🎉\n  </div>\n</div>\n<style>\n  .kz-stack {\n    max-width: 560px;\n    margin: 0 auto;\n    background: linear-gradient(135deg, #F5F9FF, #EAF3FF);\n    border: 2px solid #2D6AFF;\n    border-radius: 16px;\n    padding: 20px;\n    box-shadow: 0 4px 14px rgba(45,106,255,0.10);\n    font-family: inherit;\n  }\n  .kz-stack-title {\n    text-align: center;\n    font-size: 16px;\n    color: #1B4DB3;\n    margin: 0 0 14px;\n  }\n  .kz-stack-row,\n  .kz-stack-total {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    gap: 10px;\n    padding: 9px 0;\n    border-bottom: 1px dashed #C7DBF5;\n    font-size: 13px;\n    color: #1f3a5f;\n  }\n  .kz-stack-name { line-height: 1.35; }\n  .kz-stack-val { flex-shrink: 0; font-weight: 600; color: #1B4DB3; }\n  .kz-stack-total {\n    border-bottom: none;\n    font-weight: 700;\n    font-size: 14px;\n    padding-top: 12px;\n  }\n  .kz-stack-total .kz-stack-val s { color: #c0392b; }\n  .kz-stack-free {\n    margin-top: 12px;\n    text-align: center;\n    background: #2D6AFF;\n    color: #fff;\n    border-radius: 10px;\n    padding: 11px;\n    font-size: 14px;\n  }\n  .kz-stack-free strong { font-size: 15px; }\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_PaAnnt": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"kz-faq\">\n  <h3 class=\"kz-faq-title\">Gyakori kérdések</h3>\n\n  <div class=\"kz-faq-item\">\n    <button class=\"kz-faq-trigger\" onclick=\"toggleFaq(this)\">\n      <span>Hány éves kortól ajánlott?</span>\n      <span class=\"kz-faq-chevron\">&#8964;</span>\n    </button>\n    <div class=\"kz-faq-body\"><p>Elsősorban 7–9 éveseknek (2–3. osztály), amikor a szorzótábla először előjön. A könnyebb módokkal 6 évesek, a nehezebbekkel idősebbek is használhatják.</p></div>\n  </div>\n\n  <div class=\"kz-faq-item\">\n    <button class=\"kz-faq-trigger\" onclick=\"toggleFaq(this)\">\n      <span>Magyar a játékszabály?</span>\n      <span class=\"kz-faq-chevron\">&#8964;</span>\n    </button>\n    <div class=\"kz-faq-body\"><p>Igen. Magyar nyelvű játékszabályt és szülői útmutatót mellékelünk, weboldalunkon is elérhető.</p></div>\n  </div>\n\n  <div class=\"kz-faq-item\">\n    <button class=\"kz-faq-trigger\" onclick=\"toggleFaq(this)\">\n      <span>Kell hozzá szülői segítség?</span>\n      <span class=\"kz-faq-chevron\">&#8964;</span>\n    </button>\n    <div class=\"kz-faq-body\"><p>Az elején jó, ha együtt játszotok — pont ez a lényeg. A 21 napos terv napról napra megmondja, mit csináljatok, így nem kell semmit kitalálnod.</p></div>\n  </div>\n\n  <div class=\"kz-faq-item\">\n    <button class=\"kz-faq-trigger\" onclick=\"toggleFaq(this)\">\n      <span>Mennyi idő alatt érkezik meg?</span>\n      <span class=\"kz-faq-chevron\">&#8964;</span>\n    </button>\n    <div class=\"kz-faq-body\"><p>Magyar raktárból, GLS-sel jellemzően 1–2 munkanap. Fizethetsz utánvéttel is a futárnál.</p></div>\n  </div>\n\n  <div class=\"kz-faq-item\">\n    <button class=\"kz-faq-trigger\" onclick=\"toggleFaq(this)\">\n      <span>Mi van, ha nem tetszik?</span>\n      <span class=\"kz-faq-chevron\">&#8964;</span>\n    </button>\n    <div class=\"kz-faq-body\"><p>30 napos elégedettségi garanciát adunk. Ha bármi okból nem vagy elégedett, visszaküldheted és visszatérítjük a teljes vételárat.</p></div>\n  </div>\n\n</div>\n<style>\n  .kz-faq {\n    max-width: 560px;\n    margin: 0 auto;\n    font-family: inherit;\n  }\n  .kz-faq-title {\n    text-align: center;\n    font-size: 16px;\n    color: #1B4DB3;\n    margin: 0 0 14px;\n  }\n  .kz-faq-item {\n    border: 1.5px solid #E3ECF9;\n    border-radius: 12px;\n    margin-bottom: 8px;\n    overflow: hidden;\n    background: #fff;\n  }\n  .kz-faq-trigger {\n    width: 100%;\n    background: linear-gradient(135deg, #F5F9FF, #EAF3FF);\n    border: none;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 13px 16px;\n    font-size: 13px;\n    font-weight: 700;\n    color: #1B4DB3;\n    cursor: pointer;\n    text-align: left;\n    gap: 10px;\n  }\n  .kz-faq-chevron {\n    font-size: 16px;\n    flex-shrink: 0;\n    color: #2D6AFF;\n    transition: transform 0.25s ease;\n  }\n  .kz-faq-item.open .kz-faq-chevron { transform: rotate(180deg); }\n  .kz-faq-body {\n    display: none;\n    padding: 12px 16px;\n    font-size: 13px;\n    color: #1f3a5f;\n    line-height: 1.55;\n  }\n  .kz-faq-item.open .kz-faq-body { display: block; }\n  .kz-faq-body p { margin: 0; }\n</style>\n<script>\n  function toggleFaq(btn) {\n    btn.closest('.kz-faq-item').classList.toggle('open');\n  }\n</script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "17510116181812636e": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_3yeakV",
+    "custom_liquid_tjTj97",
+    "custom_liquid_PaAnnt",
+    "17510116181812636e"
+  ]
+}
