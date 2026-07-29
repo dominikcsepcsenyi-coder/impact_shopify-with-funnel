@@ -11,10 +11,26 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "custom_liquid_6TtQfr": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"kz-withdraw\">\n\n  <div class=\"kz-wd-box\">\n    <p>Ha elállási jogodat szeretnéd gyakorolni, írj nekünk emailt. Ha nem szeretnél emailt írni, keresd meg a rendelésed visszaigazoló emailjét, és kattints benne a <strong>„Rendelés megtekintése\"</strong> gombra. Ez megnyitja a rendelésed oldalát, ahol egy 6 számjegyű kódot kapsz emailben. Írd be a kódot, majd a rendelésed mellett kattints a <strong>„Tétel visszaküldése\"</strong> gombra. Az elállási kérelem beküldése után automatikus visszaigazolást kapsz emailben. Az alábbi gombra kattintva ugyanez a folyamat. Vagy írhatsz nekünk emailben, és segítünk: <strong>ugyfelszolgalat@kiddozone.hu</strong></p>\n  </div>\n\n  <div class=\"kz-wd-box kz-wd-cta\">\n    <p>Ha élni szeretnél elállási jogoddal, kattints az alábbi gombra. A kérelem beküldése után automatikus visszaigazolást kapsz emailben.</p>\n    <a href=\"/account\" class=\"kz-wd-btn\">Elállás a szerződéstől</a>\n    <p class=\"kz-wd-note\">A gombra kattintva a vásárlói fiókodba kerülsz, ahol kiválaszthatod az érintett rendelést és benyújthatod az elállási kérelmet.</p>\n  </div>\n\n</div>\n<style>\n  .kz-withdraw {\n    max-width: 900px;\n    margin: 0 auto;\n    padding: 0 16px;\n    font-family: inherit;\n  }\n  .kz-wd-box {\n    background: linear-gradient(135deg, #F5F9FF, #EAF3FF);\n    border: 1.5px solid #E3ECF9;\n    border-radius: 14px;\n    padding: 24px 28px;\n    margin-bottom: 28px;\n    color: #1f3a5f;\n    font-size: 14px;\n    line-height: 1.65;\n  }\n  .kz-wd-box p { margin: 0; }\n  .kz-wd-box strong { color: #1B4DB3; }\n  .kz-wd-cta {\n    text-align: center;\n  }\n  .kz-wd-btn {\n    display: inline-block;\n    margin: 18px 0 14px;\n    background: #C0392B;\n    color: #fff !important;\n    text-decoration: none;\n    font-weight: 700;\n    font-size: 15px;\n    padding: 14px 30px;\n    border-radius: 10px;\n    transition: background 0.2s ease, transform 0.15s ease;\n  }\n  .kz-wd-btn:hover {\n    background: #a5312478;\n    background: #A53124;\n    transform: translateY(-1px);\n  }\n  .kz-wd-note {\n    font-size: 12.5px;\n    color: #6b86a8;\n    line-height: 1.5;\n  }\n  @media (max-width: 600px) {\n    .kz-wd-box { padding: 18px 18px; font-size: 13.5px; }\n  }\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_liquid_6TtQfr"
   ]
 }
