@@ -15,11 +15,12 @@
         "image_hbqM4L": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_bwozcpbwozcpbwoz-clean.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "A szemed a világ kapuja.",
-            "title": "Védd a szemed. Nyerd vissza az energiád.",
+            "subheading": "Fejleszd gyermeked játékosan",
+            "title": "Játékainkkal vidáman fejlődhet gyermeked otthon",
             "heading_tag": "h2",
             "button_text": "",
             "button_link": "",
@@ -49,9 +50,52 @@
         "background": "#f2f2f2",
         "background_gradient": ""
       }
+    },
+    "featured_collection_9QUP3c": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "kiddozone-matematikai-tarsasjatek-3-bonusszal"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Jelenleg elérhető termékeink",
+        "content": "",
+        "link_url": "",
+        "link_text": "Megnézem",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "custom_liquid_ai6akV": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"kz-faq\">\n  <h3 class=\"kz-faq-title\">Gyakori kérdések</h3>\n\n  <div class=\"kz-faq-item\">\n    <button class=\"kz-faq-trigger\" onclick=\"toggleFaq(this)\">\n      <span>Mennyi idő alatt érkezik meg a rendelésem?</span>\n      <span class=\"kz-faq-chevron\">&#8964;</span>\n    </button>\n    <div class=\"kz-faq-body\"><p>Magyar raktárból szállítunk, GLS futárszolgálattal, jellemzően <strong>1–2 munkanap</strong> alatt. A csomag feladásáról értesítést küldünk.</p></div>\n  </div>\n\n  <div class=\"kz-faq-item\">\n    <button class=\"kz-faq-trigger\" onclick=\"toggleFaq(this)\">\n      <span>Hogyan fizethetek?</span>\n      <span class=\"kz-faq-chevron\">&#8964;</span>\n    </button>\n    <div class=\"kz-faq-body\"><p>Fizethetsz bankkártyával online, vagy <strong>utánvéttel</strong> a futárnál — készpénzzel és kártyával is.</p></div>\n  </div>\n\n  <div class=\"kz-faq-item\">\n    <button class=\"kz-faq-trigger\" onclick=\"toggleFaq(this)\">\n      <span>Mi van, ha nem tetszik a termék?</span>\n      <span class=\"kz-faq-chevron\">&#8964;</span>\n    </button>\n    <div class=\"kz-faq-body\"><p><strong>30 napos elégedettségi garanciát</strong> adunk. Ha bármilyen okból nem vagy elégedett, visszaküldheted, és visszatérítjük a teljes vételárat.</p></div>\n  </div>\n\n  <div class=\"kz-faq-item\">\n    <button class=\"kz-faq-trigger\" onclick=\"toggleFaq(this)\">\n      <span>Milyen korosztálynak valók a játékaitok?</span>\n      <span class=\"kz-faq-chevron\">&#8964;</span>\n    </button>\n    <div class=\"kz-faq-body\"><p>Fejlesztő játékaink óvodás és kisiskolás korú gyerekeknek készültek. Minden terméknél feltüntetjük az ajánlott életkort.</p></div>\n  </div>\n\n  <div class=\"kz-faq-item\">\n    <button class=\"kz-faq-trigger\" onclick=\"toggleFaq(this)\">\n      <span>Biztonságosak a termékek?</span>\n      <span class=\"kz-faq-chevron\">&#8964;</span>\n    </button>\n    <div class=\"kz-faq-body\"><p>Igen. Játékaink méregmentes anyagokból készülnek, és megfelelnek az európai gyermekjáték-biztonsági előírásoknak.</p></div>\n  </div>\n\n  <div class=\"kz-faq-item\">\n    <button class=\"kz-faq-trigger\" onclick=\"toggleFaq(this)\">\n      <span>Kaphatok segítséget a rendeléshez?</span>\n      <span class=\"kz-faq-chevron\">&#8964;</span>\n    </button>\n    <div class=\"kz-faq-body\"><p>Természetesen! Írj bátran a <strong>kiddozone.hivatalos@gmail.com</strong> címre, hétköznap 9:00–17:00 között. Általában 1 munkanapon belül válaszolunk.</p></div>\n  </div>\n\n</div>\n<style>\n  .kz-faq {\n    max-width: 700px;\n    margin: 0 auto;\n    padding: 0 16px;\n    font-family: inherit;\n  }\n  .kz-faq-title {\n    text-align: center;\n    font-size: 20px;\n    color: #1B4DB3;\n    margin: 0 0 18px;\n  }\n  .kz-faq-item {\n    border: 1.5px solid #E3ECF9;\n    border-radius: 12px;\n    margin-bottom: 8px;\n    overflow: hidden;\n    background: #fff;\n  }\n  .kz-faq-trigger {\n    width: 100%;\n    background: linear-gradient(135deg, #F5F9FF, #EAF3FF);\n    border: none;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 14px 16px;\n    font-size: 13.5px;\n    font-weight: 700;\n    color: #1B4DB3;\n    cursor: pointer;\n    text-align: left;\n    gap: 10px;\n    transition: background 0.2s ease;\n  }\n  .kz-faq-trigger:hover {\n    background: linear-gradient(135deg, #EAF3FF, #DCEBFF);\n  }\n  .kz-faq-chevron {\n    font-size: 16px;\n    flex-shrink: 0;\n    color: #2D6AFF;\n    transition: transform 0.25s ease;\n  }\n  .kz-faq-item.open .kz-faq-chevron { transform: rotate(180deg); }\n  .kz-faq-body {\n    display: none;\n    padding: 12px 16px;\n    font-size: 13.5px;\n    color: #1f3a5f;\n    line-height: 1.6;\n  }\n  .kz-faq-item.open .kz-faq-body { display: block; }\n  .kz-faq-body p { margin: 0; }\n  .kz-faq-body strong { color: #2D6AFF; }\n</style>\n<script>\n  function toggleFaq(btn) {\n    btn.closest('.kz-faq-item').classList.toggle('open');\n  }\n</script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
-    "slideshow_4be6Kf"
+    "slideshow_4be6Kf",
+    "featured_collection_9QUP3c",
+    "custom_liquid_ai6akV"
   ]
 }
