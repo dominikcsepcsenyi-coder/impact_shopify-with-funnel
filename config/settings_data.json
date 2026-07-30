@@ -40,7 +40,14 @@
     "favicon": "shopify://shop_images/logo-glowush.png",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
-    "content_for_index": []
+    "content_for_index": [],
+    "blocks": {
+      "8942208844547249051": {
+        "type": "shopify://apps/ultimate-gdpr-eu-cookie-banner/blocks/widget/9ad66af2-f521-41c0-96ef-0e66c4e1d187",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   },
   "presets": {
     "Sound": {
